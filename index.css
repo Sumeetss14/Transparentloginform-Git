@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Varela+Round&display=swap');
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ body{
+     background: url(bg.jpg) no-repeat center center fixed;
+     background-size: cover;
+ }
+ 
+ .container{
+     color: white;
+     position: absolute;
+     top:35%;
+     left:40%;
+ }
+ .container h1{
+     width:40%;
+     display: inline-block;
+     font-family: 'Heebo', sans-serif;
+     font-size:40px;
+     border-bottom:4px solid purple ;
+     margin-bottom: 23px;
+     padding:13px;
+ }
+ .box{
+     width:100%;
+     border-bottom:2px solid purple;
+     /* border:2px solid purple; */
+ }
+ .box i{
+     width:25px;
+     text-align:center;
+     /* padding:0px 12px; */
+     margin:22px 0px;
+ }
+ .box input{
+    width:75%;
+    background: none;
+    /* margin:0px; */
+    padding:5px 10px;
+    font-size:20px;
+    border:none;
+    outline:none;
+    color:white;
+}
+.btn{
+    cursor: pointer;
+    color:white;
+    outline:none;
+    /* width: 25%; */
+    font-weight:bold;
+    margin:18px 0;
+    padding:10px 21px;
+    border:2px solid purple;
+    border-radius: 10px;
+    font-size:18px;
+    background:none;
+}
+.btn:hover{
+    color:purple;
+    background:white;
+    opacity: 0.5;
+}
